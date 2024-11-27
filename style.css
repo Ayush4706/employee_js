@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-main{
+    color: rgb(42, 44, 44);
+    background: blueviolet;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+.container{
+    margin: 50px;
+}
+
+input{
+    display: block;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 90px;
+    padding:18px ;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: aqua;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 40px 15px;
+}
+td,td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #333;
+
+
+    
+}

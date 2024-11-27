@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Employee System</title>
+</head>
+<body>
+    <div class="container-main">
+        <header>
+            <div class="container">
+                <h1>Employee System</h1>
+                <h3>Employee Count: </h3>           
+            </div>
+        </header>
+
+        <div class="form-container">
+            <form id="inputForm">
+                <label for="id">id:</label>
+                <input type="text" name="id" id="id" > <span id="exist">id already exist</span>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name">
+                <label for="city"> City: </label>
+                <input type="text" id="city" name="city">
+                <button class="btn">submit</button>
+            </form>
+        </div>
+        <div class="table-container">
+            <table id="empTable">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Action</th>
+                </tr>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
